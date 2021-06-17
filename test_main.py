@@ -15,15 +15,3 @@ class TestWin(unittest.TestCase):
         self.assertTrue(winner("p", "r"))
         self.assertTrue(winner("s", "p"))
         self.assertTrue(winner("r", "s"))
-
-
-class TestTie(unittest.TestCase):
-    def test_tie(self):
-        self.assertEquals(user, computer)
-        # self.assertFalse(play("s", "r"))
-        # self.assertFalse(play("p", "s"))
-
-
-class TestFail(unittest.TestCase):
-    def test_tie(self):
-        self.assertFalse(user, computer)
